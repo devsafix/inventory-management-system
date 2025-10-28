@@ -32,7 +32,7 @@ export default async function DashboardPage() {
   const recent = await prisma.product.findMany({
     where: { userId },
     orderBy: { createdAt: "desc" },
-    take: 7,
+    take: 5,
   });
 
   const now = new Date();
