@@ -1,8 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
-import Pagination from "@/components/Pagination";
-import Sidebar from "@/components/Sidebar";
 import { deleteProduct } from "@/lib/actions/products";
 import {
   Search,
@@ -14,6 +12,8 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState, useTransition } from "react";
+import Sidebar from "./Sidebar";
+import Pagination from "./Pagination";
 
 interface Product {
   id: string;
