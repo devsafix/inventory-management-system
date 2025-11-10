@@ -1,7 +1,7 @@
-import Sidebar from "@/components/Sidebar";
 import { createProduct } from "@/lib/actions/products";
 import Link from "next/link";
 import { Save, X, Package } from "lucide-react";
+import Sidebar from "@/components/Sidebar";
 
 export default async function AddProductPage() {
   return (
