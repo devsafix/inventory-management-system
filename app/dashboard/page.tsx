@@ -26,11 +26,19 @@ export default async function DashboardPage() {
     0
   );
 
-  const recent = await prisma.product.findMany({
-    where: { userId },
-    orderBy: { createdAt: "desc" },
-    take: 6,
-  });
+  const recent = (
+    await prisma.product.findMany({
+      where: { userId },
+      orderBy: { createdAt: "desc" },
+      take: 6,
+    })
+  ).map((product) => ({
+    ...product,
+    price: Number(product.price),
+    quantity: Number(product.quantity),
+    createdAt: product.createdAt.toISOString(),
+    updatedAt: product.updatedAt.toISOString(),
+  }));
 
   const now = new Date();
   const weeklyProductsData = [];
