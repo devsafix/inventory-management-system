@@ -10,8 +10,8 @@ export default async function SettingsPage() {
         <div className="mb-8">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-semibold text-gray-900">Settings</h1>
-              <p className="text-sm text-gray-500">
+              <h1 className="text-3xl font-bold text-slate-900 mb-2">Settings</h1>
+              <p className="text-slate-600">
                 Manage your account settings and preferences.
               </p>
             </div>
