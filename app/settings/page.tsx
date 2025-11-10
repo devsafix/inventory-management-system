@@ -6,11 +6,13 @@ export default async function SettingsPage() {
     <div className="min-h-screen bg-gray-50">
       <Sidebar currentPath="/settings" />
 
-      <main className="ml-64 p-8">
-        <div className="mb-8">
+      <main className="md:ml-64 md:p-8 p-3 mt-16 md:mt-0">
+        <div className="mb-5">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-3xl font-bold text-slate-900 mb-2">Settings</h1>
+              <h1 className="text-3xl font-bold text-slate-900 mb-2">
+                Settings
+              </h1>
               <p className="text-slate-600">
                 Manage your account settings and preferences.
               </p>

@@ -7,7 +7,7 @@ export default async function AddProductPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <Sidebar currentPath="/add-product" />
-      <main className="lg:ml-72 p-4 sm:p-6 lg:p-8">
+      <main className="md:ml-64 md:p-8 p-3 mt-16 md:mt-0">
         {/* Form Container */}
         <div className="max-w-3xl">
           <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">

@@ -55,7 +55,7 @@ export default function DashboardClient({
   return (
     <div className="bg-slate-50 min-h-screen">
       <Sidebar currentPath="/dashboard" />
-      <main className="ml-64 p-8">
+      <main className="md:ml-64 md:p-8 p-3 mt-16 md:mt-0">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -180,7 +180,7 @@ export default function DashboardClient({
                 Recent Products
               </h2>
               <span className="text-xs font-medium text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full">
-                Top 5
+                Top 6
               </span>
             </div>
             <div className="space-y-3">

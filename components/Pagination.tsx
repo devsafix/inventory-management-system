@@ -64,7 +64,7 @@ export default function Pagination({
         }`}
         aria-disabled={currentPage <= 1}
       >
-        <ChevronLeft /> Prevous
+        <ChevronLeft />
       </Link>
 
       {visiblePages.map((page, key) => {
@@ -103,7 +103,6 @@ export default function Pagination({
         }`}
         aria-disabled={currentPage >= totalPages}
       >
-        Next
         <ChevronRight />
       </Link>
     </nav>

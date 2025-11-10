@@ -69,7 +69,7 @@ export default function InventoryClient({
   return (
     <div className="min-h-screen bg-slate-50">
       <Sidebar currentPath="/inventory" />
-      <main className="ml-64 p-8">
+      <main className="md:ml-64 md:p-8 p-3 mt-16 md:mt-0">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
