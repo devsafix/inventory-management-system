@@ -21,7 +21,7 @@ export default function SignInWrapper() {
   }, []);
 
   return (
-    <div >
+    <div>
       <div className="w-full max-w-xl">
         {/* Demo Banner */}
         <div className="mb-6 bg-indigo-50 border-2 border-indigo-200 rounded-2xl p-4">
@@ -31,11 +31,10 @@ export default function SignInWrapper() {
             </h3>
             <div className="bg-white rounded-lg p-3 border border-indigo-200">
               <p className="text-sm font-mono text-slate-700">
-                <strong>Email:</strong> {process.env.NEXT_PUBLIC_DEMO_EMAIL}
+                <strong>Email:</strong> demouser@gmail.com
               </p>
               <p className="text-sm font-mono text-slate-700">
-                <strong>Password:</strong>{" "}
-                {process.env.NEXT_PUBLIC_DEMO_PASSWORD}
+                <strong>Password:</strong> demouser@
               </p>
             </div>
             <p className="text-xs text-slate-600 mt-2">
