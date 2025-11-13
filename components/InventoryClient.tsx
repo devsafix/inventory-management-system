@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState, useTransition } from "react";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/Side-bar";
 import Pagination from "@/components/Pagination";
 
 interface Product {

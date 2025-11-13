@@ -3,7 +3,7 @@
 import { TrendingUp, Package, DollarSign, AlertTriangle } from "lucide-react";
 import { motion } from "framer-motion";
 import ProductsChart from "./ProductsChart";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/Side-bar";
 
 interface Product {
   name: string;

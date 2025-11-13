@@ -1,4 +1,4 @@
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/Side-bar";
 import { AccountSettings } from "@stackframe/stack";
 
 export default async function SettingsPage() {
