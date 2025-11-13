@@ -12,8 +12,8 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState, useTransition } from "react";
-import Sidebar from "./Sidebar";
-import Pagination from "./Pagination";
+import Sidebar from "@/components/Sidebar";
+import Pagination from "@/components/Pagination";
 
 interface Product {
   id: string;

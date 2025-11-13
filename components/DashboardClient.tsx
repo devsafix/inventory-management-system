@@ -1,11 +1,9 @@
 "use client";
 
-
-
 import { TrendingUp, Package, DollarSign, AlertTriangle } from "lucide-react";
 import { motion } from "framer-motion";
 import ProductsChart from "./ProductsChart";
-import Sidebar from "./Sidebar";
+import Sidebar from "@/components/Sidebar";
 
 interface Product {
   name: string;
